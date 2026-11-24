@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Harish Thangavelu — ML Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b12"/>
+      <stop offset="0.6" stop-color="#11111b"/>
+      <stop offset="1" stop-color="#0d1417"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0.85" cy="0.1" r="0.6">
+      <stop offset="0" stop-color="#6c63ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#6c63ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.05" cy="1" r="0.5">
+      <stop offset="0" stop-color="#00d4aa" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#00d4aa" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="chrome" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e6e4f5"/>
+      <stop offset="0.45" stop-color="#a7a3d9"/>
+      <stop offset="1" stop-color="#8fbfb3"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f8bc4"/>
+      <stop offset="1" stop-color="#6fb3a3"/>
+    </linearGradient>
+    <radialGradient id="planet" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#2b2a44"/>
+      <stop offset="1" stop-color="#14141f"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.025"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#grid)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#glowA)"/>
+  <rect width="1200" height="300" rx="14" fill="url(#glowB)"/>
+  <rect x="0.5" y="0.5" width="1199" height="299" rx="14" fill="none" stroke="#ffffff" stroke-opacity="0.07"/>
+
+  <!-- orbit illustration -->
+  <g transform="translate(975 150)">
+    <circle r="54" fill="url(#planet)" stroke="#a7a3d9" stroke-opacity="0.25"/>
+    <ellipse rx="150" ry="58" fill="none" stroke="#a7a3d9" stroke-opacity="0.22" transform="rotate(-18)"/>
+    <ellipse rx="150" ry="58" fill="none" stroke="#6fb3a3" stroke-opacity="0.35" stroke-dasharray="3 7" transform="rotate(-14)"/>
+    <ellipse rx="105" ry="96" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    <g transform="rotate(-18)">
+      <circle r="4.5" fill="#d8d6ee">
+        <animateMotion dur="9s" repeatCount="indefinite" path="M150,0 A150,58 0 1,1 -150,0 A150,58 0 1,1 150,0"/>
+      </circle>
+    </g>
+    <g transform="rotate(-14)">
+      <circle r="3" fill="#6fb3a3" opacity="0.9">
+        <animateMotion dur="9s" begin="-0.35s" repeatCount="indefinite" path="M150,0 A150,58 0 1,1 -150,0 A150,58 0 1,1 150,0"/>
+      </circle>
+    </g>
+  </g>
+
+  <!-- text -->
+  <g font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <rect x="64" y="62" width="28" height="2" fill="url(#line)"/>
+    <text x="102" y="68" font-size="13" font-weight="600" letter-spacing="2.6" fill="#8fbfb3">ML &amp; AI ENGINEER · ERLANGEN, GERMANY</text>
+    <text x="62" y="140" font-size="58" font-weight="700" fill="url(#chrome)" letter-spacing="-1">Harish Thangavelu</text>
+    <text x="64" y="186" font-size="20" fill="#b9b8cf">Machine Learning · Computer Vision · Time-Series &amp; Orbit Prediction</text>
+    <text x="64" y="232" font-size="14" fill="#7d7c96">M.Sc. Electromobility, FAU Erlangen-Nürnberg  ·  AI &amp; Autonomous Driving</text>
+  </g>
+</svg>
