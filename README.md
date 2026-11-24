@@ -1,69 +1,74 @@
-# Harish Thangavelu
+<p align="center">
+  <img src="./banner.svg" alt="Harish Thangavelu — ML & AI Engineer" width="100%"/>
+</p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HarishThangavelu/HarishThangavelu/main/banner.png" alt="Harish Thangavelu - M.Sc. Electro-Mobility | Advanced Systems & AI Engineer" width="100%">
+  <a href="https://harishthangavelu.github.io"><img src="https://img.shields.io/badge/Portfolio-harishthangavelu.github.io-6c63ff?style=flat-square&labelColor=1c1c26" alt="Portfolio"/></a>
+  <a href="https://linkedin.com/in/harish-thangavelu"><img src="https://img.shields.io/badge/LinkedIn-harish--thangavelu-0A66C2?style=flat-square&logo=linkedin&logoColor=white&labelColor=1c1c26" alt="LinkedIn"/></a>
+  <a href="mailto:harishthangavelu26@gmail.com"><img src="https://img.shields.io/badge/Email-harishthangavelu26%40gmail.com-00b894?style=flat-square&logo=gmail&logoColor=white&labelColor=1c1c26" alt="Email"/></a>
+  <img src="https://img.shields.io/badge/Open_to-ML_%2F_CV_roles-8fbfb3?style=flat-square&labelColor=1c1c26" alt="Open to ML and CV roles"/>
 </p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=500&size=18&duration=3200&pause=900&color=A7A3D9&center=true&vCenter=true&width=640&height=40&lines=Hybrid+physics+%2B+ML+models+for+orbit+prediction;Computer+vision+pipelines+that+ship+to+production;Backends+and+RAG+systems+with+FastAPI+%2B+PostgreSQL" alt="Typing summary"/>
+</p>
+
+I'm an ML engineer based in Erlangen, Germany, studying for an M.Sc. in Electromobility at FAU (AI & Autonomous Driving). I like problems where physics, data and software meet: correcting orbit propagators with learned residuals, automating annotation for industrial computer vision, and building the backends that put these models in front of users.
 
 ---
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/ML_Engineering-0F2D59?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/Computer_Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Data_Science-231F20?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/KPI_&_Dashboards-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Autonomous_Driving-3182ce?style=for-the-badge&logo=autonomousdriving&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS2_&_Robotics-22314E?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/DevOps-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Interactive_3D-00A3E0?style=for-the-badge&logo=cesium&logoColor=white" />
-</p>
+### Recent work
+
+| When | Role | Highlights |
+| :--- | :--- | :--- |
+| **Apr – Oct 2026** <br/><sub>✅ Completed</sub> | **Project Thesis** · FAPS, FAU Erlangen-Nürnberg <br/><sub>Residual Learning for Satellite Orbit Prediction (Hybrid SGP4 + LSTM)</sub> | Cut 1-hour position RMSE from **0.569 km → 0.098 km (−82.9%)** vs. SGP4 alone; velocity error −90.4%, still −36% at 24 h. Traced long-horizon loss to a ~93-min along-track oscillation via RTN decomposition and spectral analysis. Fully reproducible PyTorch repo with negative results reported openly. |
+| **Mar – Aug 2026** <br/><sub>✅ Completed</sub> | **Freelance AI Backend Engineer** · Kaampass (UK) | Built a retrieval pipeline from scratch (chunking, embeddings, similarity search) reaching **91% retrieval accuracy** on real job-matching data. FastAPI backend on PostgreSQL / Supabase, deployed live. |
+| **Oct 2025 – Feb 2026** | **Computer Vision Intern** · FranconAI, Erlangen | Automated CVAT annotation for wire-harness diagrams: OCR preprocessing, rotated-box inference (Gliding Vertex / MMRotate) in Docker, and a bandit-style optimizer for class-wise thresholds. **~70% fewer spurious predictions, 3.2× annotation throughput.** |
+| **Oct 2026 – now** <br/><sub>🛠️ Building</sub> | **NexOrg ERP** · personal project | Role-based hotel operations platform (React, TypeScript, Node.js, PostgreSQL, Prisma) on AWS with Docker and GitHub Actions CI/CD; race-condition-safe bookings and 150+ automated tests. |
+
+### Selected projects
+
+- 🛰️ **Hybrid orbit prediction (SGP4 + LSTM)**: learns the residual between SGP4 and ESA Swarm-A reference orbits from Space-Track TLEs (TEME → ITRS), with 3D visualisation in CesiumJS.
+- 🎙️ **AI voice agent**: inbound call handling with Twilio, n8n, OpenAI and ElevenLabs; summaries go out via WhatsApp and meetings are booked in Google Calendar.
+- 🤖 **Autonomous navigation (ROS2 + Gazebo)**: A* planning with LiDAR / SLAM feedback, plus distance thresholds that decide whether to stop, reroute or continue.
+- 📦 **Multi-view object dimension estimation**: measures length, width and height of inventory items using a custom-trained detector and Depth Anything V2, with a confidence score per measurement.
 
 ---
 
-I am an **Advanced Systems & AI Engineer** based in Erlangen, Germany, focused on building production-grade computer vision models, end-to-end intelligent automation pipelines, autonomous-driving tracking simulations, and deep real-world metrics reporting software for complex environments.
+### Tech stack
 
-## Current Direction
+<p>
+  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,opencv,sklearn&theme=dark" alt="ML stack"/>
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,react,ts,postgres,supabase,prisma&theme=dark" alt="Backend stack"/>
+  &nbsp;
+  <img src="https://skillicons.dev/icons?i=docker,aws,githubactions,linux,git,ros&theme=dark" alt="Infra stack"/>
+</p>
 
-| Area | What I Am Building |
+<details>
+<summary><b>Full skill list</b></summary>
+<br/>
+
+| Area | Tools & methods |
 | :--- | :--- |
-| **Machine Learning** | High-throughput multi-class object detection (MMDetection), custom noise-handling pipelines, and closed-loop model evaluation systems. |
-| **Automation Architectures** | Containerized backend multi-service orchestration platforms (n8n, APIs), LLM interactions, and auto-scheduling data logic. |
-| **Data Science & Tracking** | Physics-Informed Neural Networks (PINN) and sequential error-correction forecasting models using historical temporal data. |
-| **Autonomous Navigation** | ROS2 node control, real-time SLAM loops, LiDAR stream feedback algorithms, and custom trajectory planners in Gazebo. |
-| **Systems Engineering** | 3D interactive tracking platforms, containerized microservice workflows (Docker), and structural web dashboard layers. |
+| **Orbital mechanics & space data** | SGP4, TLE processing, Space-Track, ESA Swarm precise orbits, TEME / ITRS / RTN frames, error decomposition, spectral analysis |
+| **Time series & ML** | LSTM residual models, multi-horizon forecast evaluation, bandit-style adaptive optimisation, PyTorch, TensorFlow |
+| **Computer vision** | OpenMMLab (MMDetection, MMRotate), Gliding Vertex, YOLO, CVAT, OCR, Depth Anything V2, SLAM |
+| **Modelling & simulation** | Physics-based simulation, state-space models, numerical integration, surrogate models, Gazebo, CesiumJS |
+| **Backend & automation** | REST APIs, FastAPI, Django, React, Docker, n8n, API integration |
+| **Cloud & data** | AWS (EC2, SageMaker), containerised deployment, PostgreSQL, Supabase |
+
+</details>
+
+### Education & certifications
+
+- 🎓 **M.Sc. Electromobility**, FAU Erlangen-Nürnberg (2023 – present): AI & Autonomous Driving, Sustainable Mobility & Production Technology
+- 🎓 **B.E. Mechanical Engineering**, KGiSL Institute of Technology (2018 – 2022), CGPA 8.2 / 10
+- 📜 AWS Essentials (Cognizant) · ROS Certification (The Construct)
+- 🌍 English (C1) · German (A2) · Tamil (native)
 
 ---
 
-## Portfolio Showcase
-
-### 👁️ 1. Computer Vision & Automated Deployment (FranconAI)
-*   **Object Tracking Systems:** Trained OpenMMLab MMDetection models handling 18 engineering classes coupled with precise noise filtering architectures[cite: 1, 3].
-*   **Infrastructure Pipelines:** Built prediction-to-upload dockerized automation stacks using CVAT REST APIs, removing timeout bottlenecks and scaling loop speed by 3.2×[cite: 1, 2, 3].
-*   **Target Tuning:** Integrated Multi-Armed Bandit hyperparameter optimization layers to lift tracking boundaries from 30% to 70% precision across cycles[cite: 1, 2].
-
-### 🤖 2. Orchestrated Automation & Robotics Frameworks
-*   **Intelligent Backends:** Constructed containerized execution paths combining n8n orchestration nodes, OpenAI APIs, and multi-channel notification messaging systems[cite: 1].
-*   **Motion Control Engines:** Designed independent ROS2 graph layouts using SLAM positioning configurations and active obstacle path finding maps[cite: 1, 2].
-
-### 🌐 3. Data-Centric Interactive Platforms
-*   **3D Geospatial Visualization:** Engineered full-stack web software using CesiumJS and Node.js to track orbital mechanics projections and calculate satellite constellation footprints[cite: 1, 2, 3].
-*   **Operational Dashboards:** Built dynamic reporting layers using Streamlit to monitor analytics metrics and model retraining distributions on demand[cite: 1, 3].
-
----
-
-## Technical Ecosystem
-
-*   **Languages:** Python (NumPy, Pandas, SciPy), JavaScript, Node.js, SQL, Bash Automation Scripting[cite: 1, 2, 3]
-*   **Frameworks & Core AI:** PyTorch, TensorFlow, OpenMMLab, PINNs, ROS2, Gazebo Simulation[cite: 1, 2, 3]
-*   **DevOps & Deployment Tools:** Docker, Docker Compose, AWS (EC2, SageMaker, S3), Git, REST APIs, n8n[cite: 1, 2, 3]
-
----
-
-## Connect With Me
-*   💼 **LinkedIn:** [linkedin.com/in/harish-thangavelu](https://linkedin.com/in/harish-thangavelu)
-*   ✉️ **Email:** [harishthangavelu26@gmail.com](mailto:harishthangavelu26@gmail.com)
+<p align="center">
+  <sub>Open to full-time and working-student roles in ML, computer vision and applied AI. Feel free to reach out.</sub>
+</p>
